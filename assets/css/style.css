@@ -29,6 +29,10 @@ p {
 a {
     text-decoration: none;
 }
+.smallpic{
+    float: left;
+    margin-right: 3%;
+}
 
 header {
     margin: 0 auto;
