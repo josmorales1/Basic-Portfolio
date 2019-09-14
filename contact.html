@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lan = "en-us">
+    <head>
+        <meta charset = "UTF-8">
+        
+        <!--styling sheets: browser reset, followed by by portfolio style sheet-->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    </head>
+
+    <!--header should be the same on all pages-->
+    <header>
+    
+        <!--holds all clickables in header; 960px wide-->
+        <div class="nav-bar">
+
+            <!--home should link to index.html (about); floats left-->
+            <div id="nav-home">
+                <a href="index.html">
+                  <h1> Jose Morales</h1>
+                </a>
+            </div>
+        
+            <!--navigation links; float right-->
+                <div id="nav-contact">
+                    <a href="contact.html">
+                        <p>Contact</p>
+                    </a>
+                </div>
+
+                <div class="nav-divider"></div>
+        
+                <div id="nav-portfolio">
+                    <a href="portfolio.html">
+                        <p>Portfolio</p>
+                    </a>
+                </div>
+
+                <div class="nav-divider"></div>
+        
+                <div id="nav-about">
+                    <a href="index.html">
+                        <p>About</p>
+                    </a>
+                </div>
+
+        </div>
+
+    </header>
+
+    <!--holds background image for all pages-->
+    <body>
+
+        <!--holds content for all pages; 960px wide-->
+        <section class="body-wrapper">
+
+            <!--body heading, changes per page-->
+            <h2 class="body-heading">Contact</h2>
+
+           <!--contact form goes here-->
+            <form>
+
+                <p class="contact-item">Name</p>
+                    <input id="contact-name" type="text" name="Name">
+
+                <p class="contact-item">Email</p>
+                    <input id="contact-email" type="email" name="Email">
+
+                <p class="contact-item">Message</p>
+                    <textarea id="contact-message" name="Message"></textarea>
+
+                <input id="contact-submit" type="submit" value="Submit">
+
+            </form>
+
+        </section>
+
+    </body>
+
+    <!--footer should be the same on all pages-->
+    <footer>
+
+            <div id="footer-copyright">
+                <p id="copyright-text">Copyright ©</p>
+            </div>
+    
+        </footer>
